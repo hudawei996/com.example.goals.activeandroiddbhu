@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.goals.activeandroiddbhu.MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="insertIntoDB"
+            android:text="增加一条数据"/>
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="deleteFromDB"
+            android:text="删除一条数据"/>
+
+        <Button
+            android:id="@+id/btnDelete1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="deleteFromDB1"
+            android:text="删除一条数据1"/>
+
+        <Button
+            android:id="@+id/btnDelete2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="deleteFromDB2"
+            android:text="删除一条数据2"/>
+
+        <Button
+            android:id="@+id/btnDelete3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="deleteFromDB3"
+            android:text="删除一条数据3"/>
+
+        <Button
+            android:id="@+id/btnModify"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="modifyDB"
+            android:text="修改一条数据"/>
+
+        <Button
+            android:id="@+id/btnQuery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="queryFromDB"
+            android:text="查询数据"/>
+
+        <Button
+            android:id="@+id/btnUpdateDB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="updateDB"
+            android:text="升级数据库"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
